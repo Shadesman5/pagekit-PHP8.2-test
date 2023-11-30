@@ -1,0 +1,1081 @@
+<?php return array (
+  0 => 
+  array (
+    'name' => '@system/cache/clear',
+    'path' => '/admin/system/cache/clear',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Cache\\Controller\\CacheController::clearAction',
+  ),
+  1 => 
+  array (
+    'name' => '@system/intl',
+    'path' => '/system/intl/{locale}',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Intl\\Controller\\IntlController::indexAction',
+  ),
+  2 => 
+  array (
+    'name' => '@system/api/intl/locales',
+    'path' => '/api/system/intl/{locales}',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Intl\\Controller\\IntlApiController::localesAction',
+  ),
+  3 => 
+  array (
+    'name' => '@system/package/themes',
+    'path' => '/admin/system/package/themes',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\PackageController::themesAction',
+  ),
+  4 => 
+  array (
+    'name' => '@system/package/extensions',
+    'path' => '/admin/system/package/extensions',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\PackageController::extensionsAction',
+  ),
+  5 => 
+  array (
+    'name' => '@system/package/enable',
+    'path' => '/admin/system/package/enable',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\PackageController::enableAction',
+  ),
+  6 => 
+  array (
+    'name' => '@system/package/disable',
+    'path' => '/admin/system/package/disable',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\PackageController::disableAction',
+  ),
+  7 => 
+  array (
+    'name' => '@system/package/upload',
+    'path' => '/admin/system/package/upload',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\PackageController::uploadAction',
+  ),
+  8 => 
+  array (
+    'name' => '@system/package/install',
+    'path' => '/admin/system/package/install',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\PackageController::installAction',
+  ),
+  9 => 
+  array (
+    'name' => '@system/package/uninstall',
+    'path' => '/admin/system/package/uninstall',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\PackageController::uninstallAction',
+  ),
+  10 => 
+  array (
+    'name' => '@system/marketplace/themes',
+    'path' => '/admin/system/marketplace/themes',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\MarketplaceController::themesAction',
+  ),
+  11 => 
+  array (
+    'name' => '@system/marketplace/extensions',
+    'path' => '/admin/system/marketplace/extensions',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\MarketplaceController::extensionsAction',
+  ),
+  12 => 
+  array (
+    'name' => '@system/update',
+    'path' => '/admin/system/update',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\UpdateController::indexAction',
+  ),
+  13 => 
+  array (
+    'name' => '@system/update/download',
+    'path' => '/admin/system/update/download',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\UpdateController::downloadAction',
+  ),
+  14 => 
+  array (
+    'name' => '@system/update/update',
+    'path' => '/admin/system/update/update',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Installer\\Controller\\UpdateController::updateAction',
+  ),
+  15 => 
+  array (
+    'name' => '@site/widget',
+    'path' => '/admin/site/widget',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetController::indexAction',
+  ),
+  16 => 
+  array (
+    'name' => '@site/widget/edit',
+    'path' => '/admin/site/widget/edit',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetController::editAction',
+  ),
+  17 => 
+  array (
+    'name' => '@site/api/widget',
+    'path' => '/api/site/widget',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::indexAction',
+  ),
+  18 => 
+  array (
+    'name' => '@site/api/widget/get',
+    'path' => '/api/site/widget/{id}',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::getAction',
+  ),
+  19 => 
+  array (
+    'name' => '@site/api/widget/assign',
+    'path' => '/api/site/widget/assign',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::assignAction',
+  ),
+  20 => 
+  array (
+    'name' => '@site/api/widget/save',
+    'path' => '/api/site/widget',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::saveAction',
+  ),
+  21 => 
+  array (
+    'name' => '@site/api/widget/save_1',
+    'path' => '/api/site/widget/{id}',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::saveAction',
+  ),
+  22 => 
+  array (
+    'name' => '@site/api/widget/delete',
+    'path' => '/api/site/widget/{id}',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::deleteAction',
+  ),
+  23 => 
+  array (
+    'name' => '@site/api/widget/copy',
+    'path' => '/api/site/widget/copy',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::copyAction',
+  ),
+  24 => 
+  array (
+    'name' => '@site/api/widget/bulksave',
+    'path' => '/api/site/widget/bulk',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::bulkSaveAction',
+  ),
+  25 => 
+  array (
+    'name' => '@site/api/widget/bulkdelete',
+    'path' => '/api/site/widget/bulk',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\Widget\\Controller\\WidgetApiController::bulkDeleteAction',
+  ),
+  26 => 
+  array (
+    'name' => '@dashboard',
+    'path' => '/admin/dashboard',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Dashboard\\Controller\\DashboardController::indexAction',
+  ),
+  27 => 
+  array (
+    'name' => '@dashboard/savewidgets',
+    'path' => '/admin/dashboard/savewidgets',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Dashboard\\Controller\\DashboardController::saveWidgetsAction',
+  ),
+  28 => 
+  array (
+    'name' => '@dashboard/save',
+    'path' => '/admin/dashboard',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Dashboard\\Controller\\DashboardController::saveAction',
+  ),
+  29 => 
+  array (
+    'name' => '@dashboard/save_1',
+    'path' => '/admin/dashboard/{id}',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Dashboard\\Controller\\DashboardController::saveAction',
+  ),
+  30 => 
+  array (
+    'name' => '@dashboard/delete',
+    'path' => '/admin/dashboard/{id}',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\Dashboard\\Controller\\DashboardController::deleteAction',
+  ),
+  31 => 
+  array (
+    'name' => '@dashboard/reorder',
+    'path' => '/admin/dashboard/reorder',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Dashboard\\Controller\\DashboardController::reorderAction',
+  ),
+  32 => 
+  array (
+    'name' => '@dashboard/weather',
+    'path' => '/admin/dashboard/weather',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Dashboard\\Controller\\DashboardController::weatherAction',
+  ),
+  33 => 
+  array (
+    'name' => '@system/finder',
+    'path' => '/system/finder',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Finder\\Controller\\FinderController::indexAction',
+  ),
+  34 => 
+  array (
+    'name' => '@system/finder/createfolder',
+    'path' => '/system/finder/createfolder',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Finder\\Controller\\FinderController::createFolderAction',
+  ),
+  35 => 
+  array (
+    'name' => '@system/finder/rename',
+    'path' => '/system/finder/rename',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Finder\\Controller\\FinderController::renameAction',
+  ),
+  36 => 
+  array (
+    'name' => '@system/finder/removefiles',
+    'path' => '/system/finder/removefiles',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Finder\\Controller\\FinderController::removeFilesAction',
+  ),
+  37 => 
+  array (
+    'name' => '@system/finder/upload',
+    'path' => '/system/finder/upload',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Finder\\Controller\\FinderController::uploadAction',
+  ),
+  38 => 
+  array (
+    'name' => '@site/storage',
+    'path' => '/admin/site/storage',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Finder\\Controller\\StorageController::indexAction',
+  ),
+  39 => 
+  array (
+    'name' => '@system/info',
+    'path' => '/admin/system/info',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Info\\Controller\\InfoController::indexAction',
+  ),
+  40 => 
+  array (
+    'name' => '@system/smtp',
+    'path' => '/admin/system/smtp',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Mail\\Controller\\MailController::smtpAction',
+  ),
+  41 => 
+  array (
+    'name' => '@system/email',
+    'path' => '/admin/system/email',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Mail\\Controller\\MailController::emailAction',
+  ),
+  42 => 
+  array (
+    'name' => '@system/settings',
+    'path' => '/admin/system/settings',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\SettingsController::indexAction',
+  ),
+  43 => 
+  array (
+    'name' => '@system/settings/save',
+    'path' => '/admin/system/settings/save',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\SettingsController::saveAction',
+  ),
+  44 => 
+  array (
+    'name' => '@system/settings/config',
+    'path' => '/admin/system/settings/config',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\SettingsController::configAction',
+  ),
+  45 => 
+  array (
+    'name' => '@site/page',
+    'path' => '/admin/site/page',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeController::indexAction',
+  ),
+  46 => 
+  array (
+    'name' => '@site/page/edit',
+    'path' => '/admin/site/page/edit',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeController::editAction',
+  ),
+  47 => 
+  array (
+    'name' => '@site/settings',
+    'path' => '/admin/site/settings',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeController::settingsAction',
+  ),
+  48 => 
+  array (
+    'name' => '@site/api/link',
+    'path' => '/api/site/link',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeController::linkAction',
+  ),
+  49 => 
+  array (
+    'name' => '@site/api/menu',
+    'path' => '/api/site/menu',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\MenuApiController::indexAction',
+  ),
+  50 => 
+  array (
+    'name' => '@site/api/menu/save',
+    'path' => '/api/site/menu',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\MenuApiController::saveAction',
+  ),
+  51 => 
+  array (
+    'name' => '@site/api/menu/delete',
+    'path' => '/api/site/menu/{id}',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\MenuApiController::deleteAction',
+  ),
+  52 => 
+  array (
+    'name' => '@site/api/node',
+    'path' => '/api/site/node',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::indexAction',
+  ),
+  53 => 
+  array (
+    'name' => '@site/api/node/get',
+    'path' => '/api/site/node/{id}',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::getAction',
+  ),
+  54 => 
+  array (
+    'name' => '@site/api/node/save',
+    'path' => '/api/site/node',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::saveAction',
+  ),
+  55 => 
+  array (
+    'name' => '@site/api/node/save_1',
+    'path' => '/api/site/node/{id}',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::saveAction',
+  ),
+  56 => 
+  array (
+    'name' => '@site/api/node/delete',
+    'path' => '/api/site/node/{id}',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::deleteAction',
+  ),
+  57 => 
+  array (
+    'name' => '@site/api/node/bulksave',
+    'path' => '/api/site/node/bulk',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::bulkSaveAction',
+  ),
+  58 => 
+  array (
+    'name' => '@site/api/node/bulkdelete',
+    'path' => '/api/site/node/bulk',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::bulkDeleteAction',
+  ),
+  59 => 
+  array (
+    'name' => '@site/api/node/updateorder',
+    'path' => '/api/site/node/updateOrder',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::updateOrderAction',
+  ),
+  60 => 
+  array (
+    'name' => '@site/api/node/frontpage',
+    'path' => '/api/site/node/frontpage',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\NodeApiController::frontpageAction',
+  ),
+  61 => 
+  array (
+    'name' => '@site/api/page',
+    'path' => '/api/site/page',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\PageApiController::indexAction',
+  ),
+  62 => 
+  array (
+    'name' => '@site/api/page/get',
+    'path' => '/api/site/page/{id}',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Site\\Controller\\PageApiController::getAction',
+  ),
+  63 => 
+  array (
+    'name' => '@user/login',
+    'path' => '/user/login',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\AuthController::loginAction',
+  ),
+  64 => 
+  array (
+    'name' => '@user/logout',
+    'path' => '/user/logout',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\AuthController::logoutAction',
+  ),
+  65 => 
+  array (
+    'name' => '@user/authenticate',
+    'path' => '/user/authenticate',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\AuthController::authenticateAction',
+  ),
+  66 => 
+  array (
+    'name' => '@user',
+    'path' => '/admin/user',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserController::indexAction',
+  ),
+  67 => 
+  array (
+    'name' => '@user/edit',
+    'path' => '/admin/user/edit',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserController::editAction',
+  ),
+  68 => 
+  array (
+    'name' => '@user/permissions',
+    'path' => '/admin/user/permissions',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserController::permissionsAction',
+  ),
+  69 => 
+  array (
+    'name' => '@user/roles',
+    'path' => '/admin/user/roles',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserController::rolesAction',
+  ),
+  70 => 
+  array (
+    'name' => '@user/settings',
+    'path' => '/admin/user/settings',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserController::settingsAction',
+  ),
+  71 => 
+  array (
+    'name' => '@user/profile',
+    'path' => '/user/profile',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\ProfileController::indexAction',
+  ),
+  72 => 
+  array (
+    'name' => '@user/profile/save',
+    'path' => '/user/profile/save',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\ProfileController::saveAction',
+  ),
+  73 => 
+  array (
+    'name' => '@user/registration',
+    'path' => '/user/registration',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RegistrationController::indexAction',
+  ),
+  74 => 
+  array (
+    'name' => '@user/registration/register',
+    'path' => '/user/registration/register',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RegistrationController::registerAction',
+  ),
+  75 => 
+  array (
+    'name' => '@user/registration/activate',
+    'path' => '/user/registration/activate',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RegistrationController::activateAction',
+  ),
+  76 => 
+  array (
+    'name' => '@user/resetpassword',
+    'path' => '/user/resetpassword',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\ResetPasswordController::indexAction',
+  ),
+  77 => 
+  array (
+    'name' => '@user/resetpassword/request',
+    'path' => '/user/resetpassword/request',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\ResetPasswordController::requestAction',
+  ),
+  78 => 
+  array (
+    'name' => '@user/resetpassword/confirm',
+    'path' => '/user/resetpassword/confirm',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\ResetPasswordController::confirmAction',
+  ),
+  79 => 
+  array (
+    'name' => '@user/api',
+    'path' => '/api/user',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::indexAction',
+  ),
+  80 => 
+  array (
+    'name' => '@user/api/count',
+    'path' => '/api/user/count',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::countAction',
+  ),
+  81 => 
+  array (
+    'name' => '@user/api/get',
+    'path' => '/api/user/{id}',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::getAction',
+  ),
+  82 => 
+  array (
+    'name' => '@user/api/save',
+    'path' => '/api/user',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::saveAction',
+  ),
+  83 => 
+  array (
+    'name' => '@user/api/save_1',
+    'path' => '/api/user/{id}',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::saveAction',
+  ),
+  84 => 
+  array (
+    'name' => '@user/api/delete',
+    'path' => '/api/user/{id}',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::deleteAction',
+  ),
+  85 => 
+  array (
+    'name' => '@user/api/bulksave',
+    'path' => '/api/user/bulk',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::bulkSaveAction',
+  ),
+  86 => 
+  array (
+    'name' => '@user/api/bulkdelete',
+    'path' => '/api/user/bulk',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\UserApiController::bulkDeleteAction',
+  ),
+  87 => 
+  array (
+    'name' => '@user/api/role',
+    'path' => '/api/user/role',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RoleApiController::indexAction',
+  ),
+  88 => 
+  array (
+    'name' => '@user/api/role/get',
+    'path' => '/api/user/role/{id}',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RoleApiController::getAction',
+  ),
+  89 => 
+  array (
+    'name' => '@user/api/role/save',
+    'path' => '/api/user/role',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RoleApiController::saveAction',
+  ),
+  90 => 
+  array (
+    'name' => '@user/api/role/save_1',
+    'path' => '/api/user/role/{id}',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RoleApiController::saveAction',
+  ),
+  91 => 
+  array (
+    'name' => '@user/api/role/delete',
+    'path' => '/api/user/role/{id}',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RoleApiController::deleteAction',
+  ),
+  92 => 
+  array (
+    'name' => '@user/api/role/bulksave',
+    'path' => '/api/user/role/bulk',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RoleApiController::bulkSaveAction',
+  ),
+  93 => 
+  array (
+    'name' => '@user/api/role/bulkdelete',
+    'path' => '/api/user/role/bulk',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\User\\Controller\\RoleApiController::bulkDeleteAction',
+  ),
+  94 => 
+  array (
+    'name' => '@system',
+    'path' => '/admin',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\AdminController::indexAction',
+  ),
+  95 => 
+  array (
+    'name' => '@system/login',
+    'path' => '/admin/login',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\AdminController::loginAction',
+  ),
+  96 => 
+  array (
+    'name' => '@system/adminmenu',
+    'path' => '/admin/adminmenu',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\AdminController::adminMenuAction',
+  ),
+  97 => 
+  array (
+    'name' => '@system/migration',
+    'path' => '/admin/system/migration',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\MigrationController::indexAction',
+  ),
+  98 => 
+  array (
+    'name' => '@system/migration/migrate',
+    'path' => '/admin/system/migration/migrate',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Pagekit\\System\\Controller\\MigrationController::migrateAction',
+  ),
+  99 => 
+  array (
+    'name' => '@analytics/analytics/authredirect',
+    'path' => '/admin/analytics/auth',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::authRedirectAction',
+  ),
+  100 => 
+  array (
+    'name' => '@analytics/analytics/authcode',
+    'path' => '/admin/analytics/code',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::authCodeAction',
+  ),
+  101 => 
+  array (
+    'name' => '@analytics/analytics/user',
+    'path' => '/admin/analytics/user',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::userAction',
+  ),
+  102 => 
+  array (
+    'name' => '@analytics/analytics/api',
+    'path' => '/admin/analytics/api',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::apiAction',
+  ),
+  103 => 
+  array (
+    'name' => '@analytics/analytics/realtime',
+    'path' => '/admin/analytics/realtime',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::realtimeAction',
+  ),
+  104 => 
+  array (
+    'name' => '@analytics/analytics/profile',
+    'path' => '/admin/analytics/profile',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::profileAction',
+  ),
+  105 => 
+  array (
+    'name' => '@analytics/analytics/saveprofile',
+    'path' => '/admin/analytics/profile',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::saveProfileAction',
+  ),
+  106 => 
+  array (
+    'name' => '@analytics/analytics/disconnect',
+    'path' => '/admin/analytics/disconnect',
+    'methods' => 
+    array (
+      0 => 'DELETE',
+    ),
+    'controller' => 'Pagekit\\Analytics\\Controller\\AnalyticsController::disconnectAction',
+  ),
+  107 => 
+  array (
+    'name' => '@bixpkframework/api/ajax',
+    'path' => '/api/bixpkframework/{field_type}/{method}',
+    'methods' => 
+    array (
+      0 => 'POST',
+    ),
+    'controller' => 'Bixie\\PkFramework\\Controller\\FrameworkApiController::ajaxAction',
+  ),
+  108 => 
+  array (
+    'name' => '@bixpkframework/api/image',
+    'path' => '/api/bixpkframework/image',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Bixie\\PkFramework\\Controller\\ImageApiController::indexAction',
+  ),
+  109 => 
+  array (
+    'name' => '@bixpkframework/api/image/clearcache',
+    'path' => '/api/bixpkframework/image/clearcache',
+    'methods' => 
+    array (
+      0 => 'GET',
+    ),
+    'controller' => 'Bixie\\PkFramework\\Controller\\ImageApiController::clearcacheAction',
+  ),
+  110 => 
+  array (
+    'name' => '_debugbar',
+    'path' => '/_debugbar/{id}',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Closure',
+  ),
+  111 => 
+  array (
+    'name' => '@page/1',
+    'path' => '/',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Closure',
+  ),
+  112 => 
+  array (
+    'name' => '@page/2',
+    'path' => '/about',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Closure',
+  ),
+  113 => 
+  array (
+    'name' => '@page/3',
+    'path' => '/positions',
+    'methods' => 
+    array (
+    ),
+    'controller' => 'Closure',
+  ),
+);
